@@ -18,8 +18,8 @@
             <img class="firebase-logo" src="images/firebase-logo.png">
             <h1 class="title">Firebase!</h1>
         </div>
-        <div class="divider">
         </div>
+        <div class="divider">
         </div>
     <form id="sign-on">
         <h2 class="text-center text-white">Sign In:</h2>
@@ -88,6 +88,7 @@
         var errorMessage = error.message;
         console.log($('#sign-in-email').val());
         console.log($('#sign-in-password').val());
+        $('#bad-login').css('display', 'block');
     });
     });
 
